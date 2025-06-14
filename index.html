@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta para mi Sarita</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4e1, #fff0f5);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+
+    .container {
+      padding: 50px 20px;
+    }
+
+    .button {
+      font-size: 20px;
+      padding: 15px 30px;
+      border: none;
+      background-color: #ff6f91;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ff4f70;
+    }
+
+    .carta {
+      margin-top: 40px;
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      display: none;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      color: #ff3366;
+      font-family: 'Pacifico', cursive;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .firma {
+      margin-top: 30px;
+      font-weight: bold;
+      color: #d6336c;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Para mi amada Sarita</h1>
+    <button class="button" onclick="mostrarCarta()">Abrir carta</button>
+
+    <div class="carta" id="carta">
+      <p>
+        Tú no sabes cuánto te amo. Dios mío, te adoro con todo mi corazón. Cada vez que estás a mi lado, verte me alegra el día, sentir tu abrazo es encontrar mi lugar seguro. Eres mi esperanza, mi fuerza para seguir adelante. Tengo amigos, sí, pero siempre quiero estar contigo. Eres mi todo.
+      </p>
+      <p>
+        Sarita, eres mi primer amor. Y sé que he cometido errores, pero quiero solucionarlo todo. Quiero que me tengas confianza, que dejemos el orgullo de lado por un momento y reconstruyamos lo nuestro. Porque yo quiero durar millones de años contigo.
+      </p>
+      <p>
+        Quiero ser quien grite más fuerte en tus logros, quien te abrace en tus días grises, quien te lleve paz y felicidad. Sí, YO. Porque tú, Sara, me enseñaste a amar, a valorar, a sentir. Y no quiero perderte. Estoy dispuesto a hacer de todo para que confíes en mí de nuevo.
+      </p>
+      <p>
+        Sé que estamos jóvenes, que no sabemos qué pasará en el futuro, pero quiero escribir mi libro de vida contigo. Que seas tú la protagonista de cada página. Porque tú, Sara, eres única, y te quiero en mi vida por muchos años más.
+      </p>
+      <p class="firma">
+        Con TODO MI AMOR,<br>JUAN FELIPE TIQUE ANGEL
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function mostrarCarta() {
+      document.getElementById('carta').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
